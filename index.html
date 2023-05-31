@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/CSS' href='./styles.css'>
+    <title>HTML & CSS Cheatsheet</title>
+</head>
+<body>
+    <h1>HTML & CSS Cheatsheet</h1>
+
+    <h2>HTML Tags</h2>
+    <p>The table below will provide you with the most commonly used HTML tags. For a more in-depth list, click this link: <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element'>HTML Reference Sheet</a></p>
+
+    <table>
+
+        <tbody>
+            <tr>
+                <th>Tag Name</th>
+                <th>Example</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td style="background-color: #ffedcc" colspan="3">Page Layout Tags</td>
+            </tr>
+            <tr>
+                <td>HTML Tag</td>
+                <td>&lt;HTML&gt; &lt;/HTML&gt;</HTML></td>
+                <td>It is the root of the HTML document which is used to specify that the document is HTML.</td>
+            </tr>
+            <tr>
+                <td>Head</td>
+                <td>&lt;Head&gt; &lt;/Head&gt;</td>
+                <td>The head tag is used to contain all the head elements in the HTML file. It contains the title, style, meta, … etc tag.</td>
+            </tr>
+            <tr>
+                <td>Meta</td>
+                <td>&lt;meta&gt; &lt;/meta&gt;</td>
+                <td>It is used to specify the page description. For example last modifier, authors, … etc.</td>
+            </tr>
+            <tr>
+                <td>Link</td>
+                <td>&lt;link rel = "stylesheet" type = "text/CSS" href = "style.css"&gt;</td>
+                <td>It is used to link the content from an external source.</td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td>&lt;Title&gt; &lt;/Title&gt;</td>
+                <td>It is used to define the title of an HTML document.</td>
+            </tr>
+            <tr>
+                <td>Body</td>
+                <td>&lt;Body&gt; &lt;/Body&gt;</td>
+                <td> It is used to define the body of an HTML document. It contains images, tables, lists, … etc.</td>
+            </tr>
+            <tr>
+            <tr>
+                <td>Heading</td>
+                <td>&lt;h1&gt; &lt;/h1&gt;</td>
+                <td>It is used to define the heading of an HTML document. Examples: h1-h6</td>
+            </tr>
+            <tr>
+                <td>Line Break</td>
+                <td>&lt;br&gt; &lt;/br&gt;</td>
+                <td>It is used to break the line.</td>
+            </tr>
+            <tr>
+                <td>Anchor</td>
+                <td>&lt;a href = "..."&gt; &lt;/a&gt;</td>
+                <td>It is used to link one page to another page.</td>
+            </tr>
+            <tr>
+                <td style="background-color: #ffedcc" colspan="3">Text Effects</td>
+            </tr>
+            <tr>
+                <td>Paragraph</td>
+                <td>&lt;p&gt; &lt;/p&gt;</td>
+                <td>It is used to define paragraph content in an HTML document.</td>
+            </tr>
+            <tr>
+                <td>Emphasis</td>
+                <td>&lt;em&gt; &lt;/em&gt;</td>
+                <td>It is used to render as emphasized text.</td>
+            </tr>
+            <tr>
+                <td>Bold</td>
+                <td>&lt;b&gt; &lt;/b&gt;</td>
+                <td>It is used to specify bold content in an HTML document.</td>
+            </tr>
+            <tr>
+                <td>Italic</td>
+                <td>&lt;i&gt; &lt;/i&gt;</td>
+                <td>It is used to write the content in italic format.</td>
+            </tr>
+            <tr>
+                <td>Underline</td>
+                <td>&lt;u&gt; &lt;/u&gt;</td>
+                <td>It is used to set the content underline.</td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td>&lt;!-- Statements --&gt;</td>
+                <td>It is used to set the comment in an HTML document. It is not visible on the browser.</td>
+            </tr>
+            <tr>
+                <td style="background-color: #ffedcc" colspan="3">List Tags</td>
+            </tr>
+            <tr>
+                <td>List</td>
+                <td>&lt;li&gt; &lt;/li&gt;</td>
+                <td>It is used to list the content.</td>
+            </tr>
+            <tr>
+                <td>Ordered List</td>
+                <td>&lt;ol&gt; &lt;/ol&gt;</td>
+                <td>It is used to list the content in a particular order.</td>
+            </tr>
+            <tr>
+                <td>Unordered List</td>
+                <td>&lt;ul&gt; &lt;/ul&gt;</td>
+                <td>It is used to list the content without order.</td>
+            </tr>
+            <tr>
+                <td style="background-color: #ffedcc" colspan="3">Input Tags</td>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td>&lt;img src = " " alt = " "&gt;</td>
+                <td>It is used to add image elements in HTML documents.</td>
+            </tr>
+            <tr>
+                <td>Form</td>
+                <td>&lt;form&gt; &lt;/form&gt;</td>
+                <td>It is used to create an HTML form for the user.</td>
+            </tr>
+            <tr>
+                <td>Submit Input</td>
+                <td>&lt;input type = "Submit" value = "Submit"&gt;</td>
+                <td>It is used to take input from the user.</td>
+            </tr>
+            <tr>
+                <td>Radio Button</td>
+                <td>&lt;input type = "radio" name = "option"&gt;</td>
+                <td>It is used to select only one option from the given options.</td>
+            </tr>
+            <tr>
+                <td>Checkbox Button</td>
+                <td>&lt;input type = "checkbox" name = "check" value= " "&gt;</td>
+                <td>It is used to select an option from the given options.</td>
+            </tr>
+            <tr>
+                <td>Dropdown Options</td>
+                <td>&lt;option&gt; &lt;/option&gt;</td>
+                <td>It is used to select an option from a drop-down list.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <h2>HTML Table Tags</h2>
+    <p>Additional resources:<br> <a href='https://www.codecademy.com/learn/learn-html/modules/learn-html-tables/cheatsheet'>Codecademy</a></p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Table Tags</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tag Name</th>
+                <th>Example</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Table</td>
+                <td>&lt;table&gt; &lt;/table&gt;</HTML></td>
+                <td>A table tag is used to create a table in an HTML document.</td>
+            </tr>
+            <tr>
+                <td>Table Header</td>
+                <td>&lt;th&gt; &lt;/th&gt;</td>
+                <td>It defines the header cell in a table. By default, it set the content with the bold and center.</td>
+            </tr>
+            <tr>
+                <td>Table Row</td>
+                <td>&lt;tr&gt; &lt;/tr&gt;</td>
+                <td>It is used to define a row of an HTML table.</td>
+            </tr>
+            <tr>
+                <td>Table Data</td>
+                <td>&lt;td&gt; &lt;/td&gt;</td>
+                <td>It defines the standard cell in an HTML document.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+
+    <h2>CSS Selectors/Elements</h2>
+    <p>Here's a list of common CSS selectors/elements, if you wish for a more in-depth list click the links below: 
+        <br><a href='https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css/'>Geeksforgeeks</a>
+        <br><a href='https://www.freecodecamp.org/news/css-selectors-cheat-sheet/'>FreeCodeCamp</a>
+        <br><a href='https://dev.to/dawnind/css3-selectors-cheat-sheet-6dk'>DEV Community</a>
+        <br><a href='https://www.browserstack.com/guide/css-selectors-cheat-sheet'>Broswer Stack</a></p>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">CSS Elements</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tag Name</th>
+                <th>Description</th>
+            </tr>
+
+            <tr>
+                <td>Align-items</td>
+                <td>Specifies the alignment for items inside a flexible container</td>
+            </tr>
+
+            <tr>
+                <td>Background</td>
+                <td>A shorthand property for all the background-* properties</td>
+            </tr>
+            <tr>
+                <td>Background-color</td>
+                <td>Specifies the background color of an element</td>
+            </tr>
+            <tr>
+                <td>Background-image</td>
+                <td>Specifies one or more background images for an element</td>
+            </tr>
+
+            <tr>
+                <td>Border</td>
+                <td>A shorthand property for border-width, border-style and border-color</td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>Sets the color of text</td>
+            </tr>
+            <tr>
+                <td>Display</td>
+                <td>Specifies how a certain HTML element should be displayed</td>
+            </tr>
+            <tr>
+                <td>Flex</td>
+                <td>A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties</td>
+            </tr>
+            <tr>
+                <td>Font</td>
+                <td>A shorthand property for the font-style, font-variant, font-weight, font-size/line-height, and the font-family properties</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>Sets the height of an element</td>
+            </tr>
+            <tr>
+                <td>@import</td>
+                <td>Allows you to import a style sheet into another style sheet</td>
+            </tr>
+            <tr>
+                <td>Justify-content</td>
+                <td>Specifies the alignment between the items inside a flexible container when the items do not use all available space</td>
+            </tr>
+            <tr>
+                <td>Justify-items</td>
+                <td>Is set on the grid container. Specifies the alignment of grid items in the inline direction</td>
+            </tr>
+            <tr>
+                <td>Justify-self</td>
+                <td>Is set on the grid item. Specifies the alignment of the grid item in the inline direction</td>
+            </tr>
+            <tr>
+                <td>Letter-spacing</td>
+                <td>Increases or decreases the space between characters in a text</td>
+            </tr>
+            <tr>
+                <td>Line-height</td>
+                <td>Sets the line height</td>
+            </tr>
+            <tr>
+                <td>Margin</td>
+                <td>Sets all the margin properties in one declaration</td>
+            </tr>
+            <tr>
+                <td>Max-height</td>
+                <td>Sets the maximum height of an element</td>
+            </tr>
+            <tr>
+                <td>Max-width</td>
+                <td>Sets the maximum width of an element</td>
+            </tr>
+            <tr>
+                <td>@media</td>
+                <td>Sets the style rules for different media types/devices/sizes</td>
+            </tr>
+            <tr>
+                <td>Min-height</td>
+                <td>Sets the minimum height of an element</td>
+            </tr>
+            <tr>
+                <td>Min-width</td>
+                <td>Sets the minimum width of an element</td>
+            </tr>
+            <tr>
+                <td>Overflow</td>
+                <td>Specifies what happens if content overflows an element's box</td>
+            </tr>
+            <tr>
+                <td>Padding</td>
+                <td>A shorthand property for all the padding-* properties</td>
+            </tr>
+            <tr>
+                <td>Position</td>
+                <td>Specifies the type of positioning method used for an element (static, relative, absolute or fixed)</td>
+            </tr>
+            <tr>
+                <td>Text-align</td>
+                <td>Specifies the horizontal alignment of text</td>
+            </tr>
+            <tr>
+                <td>Text-decoration</td>
+                <td>Specifies the decoration added to text</td>
+            </tr>
+            <tr>
+                <td>Text-transform</td>
+                <td>Controls the capitalization of text</td>
+            </tr>
+            <tr>
+                <td>Transition</td>
+                <td>A shorthand property for all the transition-* properties</td>
+            </tr>
+            <tr>
+                <td>Visibility</td>
+                <td>Specifies whether or not an element is visible</td>
+            </tr>
+            <tr>
+                <td>Width</td>
+                <td>Sets the width of an element</td>
+            </tr>
+            <tr>
+                <td>Word-spacing</td>
+                <td>Increases or decreases the space between words in a text</td>
+            </tr>
+            <tr>
+                <td>Z-index</td>
+                <td>Sets the stack order of a positioned element</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+<footer>Brandon McCarthy &#x40;2023</footer>
+</html>
